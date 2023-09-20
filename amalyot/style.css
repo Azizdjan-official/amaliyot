@@ -1,0 +1,101 @@
+.vazifa1
+{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 1fr 2fr 1fr ;
+    grid-gap: 10px;
+    
+}
+.grid{
+    padding: 20px;
+    background: orange;
+    border-radius: 8px;
+    border: 3px solid black;
+}
+.item5{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+.vazifa2
+{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows:1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+.box1
+{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    
+}
+.box2
+{
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
+.box3
+{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+.box4
+{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+.box5
+{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.box7
+{
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+.vazifa3
+{
+    display: grid;
+    grid-template-columns: 350px 350px 350px 350px;
+    grid-template-rows:1fr 1fr 1fr 1fr;
+    grid-gap: 5px;
+}
+.card1
+{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.card2
+{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.card3
+{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+.card8
+{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
